@@ -17,4 +17,5 @@ time ./tools/compress_net.py \
 time ./tools/test_net.py --gpu $1 \
   --def models/VGG16/compressed/test.prototxt \
   --net output/default/voc_2007_trainval/vgg16_fast_rcnn_iter_40000_svd_fc6_1024_fc7_256.caffemodel \
-  --imdb voc_2007_test
+  --imdb voc_2007_test \
+  --sabi
